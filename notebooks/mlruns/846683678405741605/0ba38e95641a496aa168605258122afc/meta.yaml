@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/0ba38e95641a496aa168605258122afc/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '846683678405741605'
+lifecycle_stage: active
+run_id: 0ba38e95641a496aa168605258122afc
+run_name: abrasive-penguin-381
+run_uuid: 0ba38e95641a496aa168605258122afc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740851981188
+status: 1
+tags: []
+user_id: mehdi
