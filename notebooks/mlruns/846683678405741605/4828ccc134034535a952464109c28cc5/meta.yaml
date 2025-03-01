@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/4828ccc134034535a952464109c28cc5/artifacts
+end_time: 1740849854868
+entry_point_name: ''
+experiment_id: '846683678405741605'
+lifecycle_stage: active
+run_id: 4828ccc134034535a952464109c28cc5
+run_name: loud-gnat-262
+run_uuid: 4828ccc134034535a952464109c28cc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740849850637
+status: 4
+tags: []
+user_id: mehdi
