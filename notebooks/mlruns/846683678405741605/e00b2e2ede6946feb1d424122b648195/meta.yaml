@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/e00b2e2ede6946feb1d424122b648195/artifacts
+end_time: 1740926358827
+entry_point_name: ''
+experiment_id: '846683678405741605'
+lifecycle_stage: active
+run_id: e00b2e2ede6946feb1d424122b648195
+run_name: UNet_mini_dice_loss
+run_uuid: e00b2e2ede6946feb1d424122b648195
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740926334233
+status: 3
+tags: []
+user_id: mehdi

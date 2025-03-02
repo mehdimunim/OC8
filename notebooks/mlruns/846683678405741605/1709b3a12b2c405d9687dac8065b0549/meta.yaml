@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/1709b3a12b2c405d9687dac8065b0549/artifacts
+end_time: 1740926315362
+entry_point_name: ''
+experiment_id: '846683678405741605'
+lifecycle_stage: active
+run_id: 1709b3a12b2c405d9687dac8065b0549
+run_name: UNet_base_mixed_loss
+run_uuid: 1709b3a12b2c405d9687dac8065b0549
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740926209974
+status: 3
+tags: []
+user_id: mehdi

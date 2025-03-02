@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1740933265847
+current_stage: None
+description: null
+last_updated_timestamp: 1740933265847
+name: UNet_mini_dice_loss
+run_id: e6810cbb5b324fddaf633cdc301f0d9d
+run_link: null
+source: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/e6810cbb5b324fddaf633cdc301f0d9d/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/e6810cbb5b324fddaf633cdc301f0d9d/artifacts/model
+user_id: null
+version: 1

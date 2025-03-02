@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehdi/Documents/OC/OC8/notebooks/mlruns/846683678405741605/da676a647ad442d68d848f9c7cd7954a/artifacts
+end_time: 1740935036611
+entry_point_name: ''
+experiment_id: '846683678405741605'
+lifecycle_stage: active
+run_id: da676a647ad442d68d848f9c7cd7954a
+run_name: UNet_mini_categorical_crossentropy
+run_uuid: da676a647ad442d68d848f9c7cd7954a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740934992847
+status: 3
+tags: []
+user_id: mehdi
