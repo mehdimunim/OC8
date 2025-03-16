@@ -9,3 +9,7 @@ tqdm
 tensorflow
 scikit-learn
 mlflow
+ipykernel
+ipywidgets
+pandas
+scipy
