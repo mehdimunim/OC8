@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Charger le modèle
-model_path = os.path.join(os.path.dirname(__file__), 'model', 'model.h5')
+model_path = os.path.join(os.path.dirname(__file__), 'model', 'model.keras')
 model = tf.keras.models.load_model(model_path, compile=False)
 
 def preprocess_image(image):

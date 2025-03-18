@@ -4,5 +4,5 @@ data/
 .venv/
 ../models/unet_model.h5
 notebooks/mlruns
-mlflow_artifacts
+mlflow_artifacts/
 keykey.pem

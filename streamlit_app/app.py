@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 
 # URL de votre API Flask
-API_URL = "http://18.234.146.225:8000/predict"
+API_URL = "http://localhost:8000/predict"
 
 st.set_page_config(page_title="Segmentation d'Image", layout="wide")
 
