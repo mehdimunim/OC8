@@ -4,15 +4,16 @@ import base64
 from PIL import Image
 import io
 import numpy as np
+import cv2
 
-# URL de votre API Flask (à ajuster selon votre déploiement)
-API_URL = "http://localhost:5000/predict"
+# URL de votre API Flask
+API_URL = "http://18.234.146.225:8000/predict"
 
 st.set_page_config(page_title="Segmentation d'Image", layout="wide")
 
 st.title("Application de Segmentation d'Image")
 
-uploaded_file = st.file_uploader("Choisissez une image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choisissez une image", type=["jpg", "png"])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)

@@ -15,6 +15,10 @@ model = tf.keras.models.load_model(model_path, compile=False)
 
 def preprocess_image(image):
     # Redimensionner l'image à la taille attendue par le modèle
+    
+    
+    print(image)
+    
     image = cv2.resize(image, (256, 256))
     # Normaliser l'image
     image = image.astype(np.float32) / 255.0
