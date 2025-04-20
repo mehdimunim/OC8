@@ -1,0 +1,34 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Notebooks
+*.ipynb_checkpoints/
+
+# Données et modèles
+data/
+mlflow_artifacts/
+notebooks/mlruns/
+api/model/*.keras
+../models/unet_model.h5
+
+# Environnements virtuels
+.venv/
+venv/
+*/venv/
+*/.venv/
+api/venv/
+
+# Clés et fichiers sensibles
+keykey.pem
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optionnel)
+.vscode/
+
