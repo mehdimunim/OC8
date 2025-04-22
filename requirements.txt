@@ -13,3 +13,5 @@ ipykernel
 ipywidgets
 pandas
 scipy
+gunicorn
+
