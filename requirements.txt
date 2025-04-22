@@ -1,17 +1,34 @@
-seaborn
-numpy
-matplotlib
-Pillow
-Flask
-opencv-python-headless
-jupyterlab
-tqdm
-tensorflow
-scikit-learn
-mlflow
-ipykernel
-ipywidgets
-pandas
-scipy
-gunicorn
+# Requirements pour l'application Streamlit
 
+# Version de base pour la stabilité
+streamlit==1.29.0  # Ou une version stable récente
+
+# Pour le traitement des données
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.12.0
+
+# Pour le traitement des images
+opencv-python-headless==4.9.0.80  # IMPORTANT : Version headless
+Pillow==10.2.0
+
+# Pour la visualisation
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Pour le machine learning
+tensorflow==2.15.0
+scikit-learn==1.4.0
+
+# Pour le suivi d'expériences (si vous l'utilisez)
+mlflow==2.10.2
+
+# Autres outils utiles
+tqdm==4.66.1
+ipywidgets==8.1.1
+jupyterlab==4.0.9
+ipykernel==6.29.0
+
+# Pour le déploiement
+Flask==3.0.0
+gunicorn==21.2.0
