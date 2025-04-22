@@ -10,7 +10,7 @@ from tensorflow.keras import backend as K
 app = Flask(__name__)
 
 # Définir le chemin du modèle
-model_path = 'model/VGG16_UNet_dice_loss.keras'
+model_path = 'model/UNet_base_mixed_loss_augmented.keras'
 
 # Définir les fonctions de perte et les métriques personnalisées ICI
 def dice_coefficient(y_true, y_pred, smooth=1e-6):
@@ -29,13 +29,18 @@ def iou_metric(y_true, y_pred, smooth=1e-6):
 def dice_loss(y_true, y_pred):
     return 1 - dice_coefficient(y_true, y_pred)
 
+def mixed_loss(y_true, y_pred):
+    """Fonction de perte combinant categorical crossentropy et dice loss."""
+    return 0.5 * keras.losses.CategoricalCrossentropy()(y_true, y_pred) + 0.5 * dice_loss(y_true, y_pred)
+
 # Charger le modèle en spécifiant les objets personnalisés
 print("Tentative de chargement du modèle...")
 try:
     model = keras.models.load_model(model_path,
                                    custom_objects={'dice_loss': dice_loss,
                                                    'dice_coefficient': dice_coefficient,
-                                                   'iou_metric': iou_metric})
+                                                   'iou_metric': iou_metric,
+                                                   'mixed_loss': mixed_loss})
     print(f"Modèle chargé avec succès depuis : {model_path}")
     IMG_HEIGHT = model.input_shape[1]
     IMG_WIDTH = model.input_shape[2]
