@@ -1,3 +1,6 @@
+# Ignorer la clé de sécurité
+key.pem
+
 # Python
 *.pyc
 *.pyo

@@ -24,7 +24,7 @@ import base64
 # ------------------------------------------------------------------------------
 
 # URL de l'API de segmentation
-API_URL = "http://localhost:5000/predict"
+API_URL = "http://13.60.17.72:5000/predict"
 
 # Nombre de classes de segmentation
 NUM_CLASSES = 8
